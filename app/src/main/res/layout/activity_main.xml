@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:inputType="numberDecimal"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:gravity="right"
+        android:textSize="25sp" />
+
+    <TableLayout
+        android:background="#FAFAFA"
+        android:layout_width="271dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/number7"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number7"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/number8"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number8"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/number9"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number9"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+
+        </TableRow>
+
+        <TableRow android:orientation="vertical">
+
+            <Button
+                android:id="@+id/number4"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number4"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/number5"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number5"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/number6"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number6"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+
+        </TableRow>
+
+        <TableRow android:orientation="vertical">
+
+            <Button
+                android:id="@+id/number1"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number1"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/number2"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number2"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/number3"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number3"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/number0"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/number0"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/dot"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/dot"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+            <Button
+                android:id="@+id/equals"
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="@string/equals"
+                android:textColor="@android:color/black"
+                android:textSize="37sp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/ripple_effect"
+        android:text="@string/add"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="37sp" />
+
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_above="@+id/add"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ripple_effect"
+        android:text="@string/subtract"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="37sp" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_above="@+id/subtract"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ripple_effect"
+        android:text="@string/multiply"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="37sp" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_above="@+id/multiply"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ripple_effect"
+        android:text="@string/divide"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="37sp" />
+
+    <Button
+        android:id="@+id/correction"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_above="@+id/divide"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ripple_effect"
+        android:text="@string/correction"
+        android:longClickable="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="37sp" />
+
+</RelativeLayout>
